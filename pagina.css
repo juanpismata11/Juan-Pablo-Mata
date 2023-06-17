@@ -176,6 +176,10 @@ margin-right: 20px;
   max-width: 700px;
 }
 
+.prof{
+  text-align: center;
+}
+
 
 /* Esta es la parte de la barra izquierda*/
 .navegacion{
@@ -223,7 +227,6 @@ margin-right: 20px;
 /* Contenido de Home */
 body{
   background-color: rgb(230, 230, 230);
-  padding-bottom: 10px;
 }
 
 .pagina{
@@ -241,7 +244,7 @@ margin-top: 15.5vh;
   transition: box-shadow .3s , background-color .3s;
 }
 
-@media all and (max-width: 500px){
+@media only screen and (max-width: 500px){
   .bienvenida{
     display: flex;
     flex-direction: column;
@@ -296,7 +299,6 @@ height: 250px;
   border-radius: 5px;
   padding: 10px 10px;
   transition: box-shadow .3s , background-color .3s;
-  height: 250px;
   align-items: center;
 }
 
@@ -304,6 +306,11 @@ height: 250px;
   box-shadow: 3px 3px 1px rgb(0 0 0 / 0.6);
   background-color: rgb(201, 201, 201);
   cursor: default;
+}
+
+.box:active{
+  box-shadow: 3px 3px 1px rgb(0 0 0 / 0.6);
+  background-color: rgb(201, 201, 201);
 }
 
 .fotospng{
@@ -320,3 +327,18 @@ height: 250px;
   line-height: 20px;
 }
 
+@media only screen and (max-width: 500px){
+  .grid-about{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .box{
+    flex-direction: column;
+    height: 500px;
+  }
+
+  .about{
+    text-align: center;
+  }
+}
