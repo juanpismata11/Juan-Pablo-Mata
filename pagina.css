@@ -325,7 +325,7 @@ height: 250px;
   line-height: 20px;
 }
 
-@media only screen and (min-width:0px) and (max-width: 500px){
+@media only screen and (min-width:0px) and (max-width: 800px){
   .bienvenida{
     display: flex;
     flex-direction: column;
@@ -334,7 +334,7 @@ height: 250px;
   }
 }
 
-@media only screen and (min-width:0px) and (max-width: 500px){
+@media only screen and (min-width:0px) and (max-width: 800px){
   .grid-about{
     display: grid;
     grid-template-columns: 1fr;
@@ -350,12 +350,12 @@ height: 250px;
   }
 }
 
-@media only screen and ( min-width: 0px) and (max-width: 500px){
+@media only screen and ( min-width: 0px) and (max-width: 800px){
   .punto{
     font-size: 10px;
   }
   .navegacion{
-    top:11vh;
+    top:10vh;
   }
   
 }
