@@ -178,6 +178,7 @@ margin-right: 20px;
 
 .prof{
   text-align: center;
+  font-size: 16px;
 }
 
 
@@ -185,7 +186,7 @@ margin-right: 20px;
 .navegacion{
   position: fixed;
   background-color: #555;
-  margin-top: -6px;
+  margin-top: -15px;
   bottom: 0;
   left: 0;
   top:14.45vh;
@@ -209,6 +210,8 @@ margin-right: 20px;
   font-size: 25px;
   transition: background-color .25s;
 }
+
+
 
 .com {
   display: flex;
@@ -244,17 +247,12 @@ margin-top: 15.5vh;
   transition: box-shadow .3s , background-color .3s;
 }
 
-@media only screen and (max-width: 500px){
-  .bienvenida{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-  }
-
+.bienvenida:hover{
+  background-color: rgb(190, 190, 190);
+  box-shadow: 3px 3px 1px rgb(0 0 0 / 0.6);
 }
 
-.bienvenida:hover{
+.bienvenida:active{
   background-color: rgb(190, 190, 190);
   box-shadow: 3px 3px 1px rgb(0 0 0 / 0.6);
 }
@@ -327,7 +325,16 @@ height: 250px;
   line-height: 20px;
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (min-width:0px) and (max-width: 500px){
+  .bienvenida{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width:0px) and (max-width: 500px){
   .grid-about{
     display: grid;
     grid-template-columns: 1fr;
@@ -341,4 +348,11 @@ height: 250px;
   .about{
     text-align: center;
   }
+}
+
+@media only screen and ( min-width: 0px) and (max-width: 500px){
+  .punto{
+    font-size: 10px;
+  }
+
 }
