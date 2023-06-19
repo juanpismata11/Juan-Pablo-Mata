@@ -189,7 +189,7 @@ margin-right: 20px;
   margin-top: -6px;
   bottom: 0;
   left: 0;
-  top:11vh;
+  top:13.45vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -354,5 +354,8 @@ height: 250px;
   .punto{
     font-size: 10px;
   }
-
+  .navegacion{
+    top:11vh;
+  }
+  
 }
