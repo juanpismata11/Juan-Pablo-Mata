@@ -369,12 +369,13 @@ row-gap: 30px;
 
 .imgproy1{
   width:100%;
+  height: 271px;
 }
 
 .proyecto-absolute{
   background-color: #000;
   position: absolute;
-  top: 200px;
+  top: 150px;
   bottom: 5px;
   right: 0;
   left: 0;
@@ -397,7 +398,7 @@ row-gap: 30px;
   }
 
   .punto{
-    font-size: 2.5vw;
+    font-size: 2vw;
   }  
   
   .navegacion{
@@ -510,7 +511,7 @@ row-gap: 30px;
   .polaroid-text{
     font-size: 10px;
   }
-  
+
   .homefotos-others{
     height: 100%;
     width: 128px;
